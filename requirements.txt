@@ -11,6 +11,7 @@ numpy==1.21.6
 pathspec==0.9.0
 platformdirs==2.5.2
 pydantic==1.9.0
+pydantic[Email]
 sniffio==1.2.0
 starlette==0.18.0
 tomli==2.0.1
