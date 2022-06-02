@@ -4,7 +4,6 @@ from enum import Enum
 from fastapi import FastAPI
 from pydantic import BaseModel, EmailStr, PositiveInt
 from pydantic import constr
-import main_2 as dg
 import random
 
 logger = logging.getLogger(__name__)
