@@ -37,7 +37,6 @@ class Model(BaseModel):
 
 @app.post("/validate_data")
 async def validate_data(data: Model):
-    dg.Dummy.validate_debug()
     logger.info(f"Data validated for user: {data.name}.")
     return {"message": "Data was validated. All good!", "valid": True}
 
